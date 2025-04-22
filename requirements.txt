@@ -1,0 +1,19 @@
+# Core dependencies (often installed via conda, listing pip equivalents)
+numpy
+tqdm
+loguru
+click
+Pillow
+opencv-python
+
+# PyTorch dependencies (from pip section in environment.yml)
+--index-url https://download.pytorch.org/whl/nightly/cu126
+--pre torch
+--pre torchvision
+--pre torchaudio
+
+# Note: This requirements.txt is derived from environment.yml.
+# It assumes standard pip package names for the conda dependencies.
+# The PyTorch installation uses a specific index URL and includes pre-releases.
+# You might need to adjust versions based on specific needs or compatibility.
+# Also, ensure ffmpeg is installed separately as it's a system dependency.
