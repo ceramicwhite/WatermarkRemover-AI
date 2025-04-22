@@ -5,7 +5,7 @@ loguru
 click
 Pillow
 opencv-python
-iopaint # Added iopaint as it's used by remwm.py/remwm_video.py
+iopaint[torch] # Added iopaint with torch extras for LaMa model support
 transformers # Added transformers as it's used by remwm.py/remwm_video.py
 
 # Note: This requirements.txt is derived from environment.yml and script imports.
